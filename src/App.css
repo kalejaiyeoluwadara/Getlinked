@@ -1,0 +1,37 @@
+body{
+    overflow-x: hidden;
+
+}
+.bac{
+    background-color: #150E28;
+}
+.bb{
+    width:100% ;
+    border-bottom: 1px solid #D434FE;
+}
+.stroke{
+    background-color: #D434FE;
+    width: 4px;
+}
+.box{
+     border: 1px solid #D434FE;
+}
+.time{
+    /* border-radius: 26.5px; */
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.txt{
+    color: #D434FE;
+}
+.br{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.127);
+}
+*{
+ padding: 0px;
+ margin: 0px;
+ font-family: poppins;
+}
+.btn {
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
