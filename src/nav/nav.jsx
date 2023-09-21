@@ -4,7 +4,7 @@ import './nav.css'
 import Button from '../Button';
 function Nav() {
   return (
-    <div className=" px-[70px] py-[30px]  flex justify-between br   w-full items-center text-white ">
+    <div className="glass px-[70px] py-[30px] sticky top-0 z-[100px]  flex justify-between br   w-full items-center text-white ">
       <div>
         <img src={logo} alt="" />
       </div>

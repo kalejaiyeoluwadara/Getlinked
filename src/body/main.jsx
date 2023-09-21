@@ -1,20 +1,21 @@
 import React from 'react'
-import man from './../assets/man.svg'
+import main from './../assets/main.png'
 import Button from '../Button';
 import bulb from './../assets/img.png'
 import chain from './../assets/chain.png'
+import line from "./../assets/line.svg";
 import creative from "./../assets/creative.svg";
 import light from "./../assets/light.png";
 import Lens from '../Lens';
 function Main() {
   return (
-    <main className="w-[100%] flex relative pl-[70px] items-center h-[90vh]  text-white gap-3 ">
+    <main className="w-[100%] sm:flex-row flex-col flex sm:mt-[100px]   mt-[120px] relative sm:pl-[70px] px-[30px] items-center sm:h-[90vh] h-[auto] mb-20  text-white gap-3 ">
       <Lens r={10} />
-      <div className="flex w-[50%] relative z-20 gap-5 items-start flex-col ">
-        <div className="font-[800]  leading-[75px] text-[70px] ">
+      <div className="flex sm:w-[50%] w-[100%] relative z-20 gap-5 sm:items-start items-center flex-col ">
+        <div className="sm:font-[800] font-[800] sm:px-0   sm:leading-[75px]  sm:text-start text-center sm:text-[70px] text-[35px] ">
           <img
             src={creative}
-            className="absolute -top-[60px] right-[120px] "
+            className="absolute sm:h-auto h-[50px]  sm:-top-[60px] -top-[40px] sm:right-[120px] right-[60px] "
             alt=""
           />
           <h1>getlinkedTech</h1>
@@ -27,7 +28,7 @@ function Main() {
             </div>
           </h1>
         </div>
-        <p className="w-[80%] font-[400] ">
+        <p className="sm:w-[80%] w-[85%] sm:leading-[30px] sm:text-[14px]  text-[17px] sm:text-start text-center font-[400] ">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
           Big prize
         </p>
@@ -54,21 +55,17 @@ function Main() {
         </div>
       </div>
 
-      <div className="w-[50%]  relative pr-10 h-[100%] flex flex-col">
-        <div>
-          <h1 className=" absolute z-20 italic text-[22px] font-[400] top-6 right-10 ">
+      <div className="sm:w-[50%] w-[100%]   pr-10 h-[100%] flex flex-col">
+        <div className="absolute  -top-[80px] right-10">
+          <h1 className="   text-center z-20 italic sm:text-[22px] font-[600] text-[17px] sm:font-[400] ">
             Igniting a Revolution in HR Innovation
           </h1>
+          <img className="absolute -bottom-1 right-0" src={line} alt="" />
         </div>
-        <div className="relative h-[100%] ">
+        <div className="relative flex items-center justify-center h-[100%] ">
           <img
-            className="h-[600px]  absolute bottom-1 right-1 z-10"
-            src={man}
-            alt=""
-          />
-          <img
-            className="h-[600px] absolute bottom-1 right-1 z-20"
-            src={bulb}
+            className="sm:h-[600px] w-[100%] h-[500px] relative bottom-1 right-1 z-10"
+            src={main}
             alt=""
           />
         </div>

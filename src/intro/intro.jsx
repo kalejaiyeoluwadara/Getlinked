@@ -2,16 +2,16 @@ import React from 'react'
 import idea from './../assets/idea.png'
 function Intro() {
   return (
-    <main className="flex px-[70px] text-white h-auto items-center w-full ">
-      <div className="w-[50%]  ">
-        <img src={idea} className="h-[500px] " alt="" />
+    <main className="flex sm:flex-row flex-col sm:mb-0 mb-20 sm:px-[70px] px-[20px] text-white h-auto items-center w-full ">
+      <div className="sm:w-[50%] sm:block flex items-center justify-center w-[100%] ">
+        <img src={idea} className="sm:h-[500px] h-[400px] " alt="" />
       </div>
-      <div className="w-[50%]  ">
-        <div className='text-[40px] mb-8 leading-[50px] font-[700] '>
+      <div className="sm:w-[50%] sm:text-start text-center sm:mt-0 mt-10 ">
+        <div className='sm:text-[40px] text-[30px] mb-8 leading-[50px] font-[700] '>
           <h1>Introduction to getlinked</h1>
           <h1 className="txt">tech Hackathon 1.0</h1>
         </div>
-        <p>
+        <p className='leading-[30px]'>
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as clear as day: to shape the future. Whether you're a coding genius,
           a design maverick, or a concept wizard, you'll have the chance to

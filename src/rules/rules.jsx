@@ -3,11 +3,11 @@ import rules from './../assets/rule.png'
 import lens from "./../assets/lens.png";
 function Rules() {
   return (
-    <main className="flex px-[70px] relative z-20 text-white h-auto  items-center w-full ">
-      <div className={`absolute z-10 left-[10px] `}>
-        <img src={lens} className=" h-[800px] w-[800px] " alt="" />
+    <main className="flex sm:px-[70px] px-[20px] sm:mb-0 mb-20 sm:flex-row flex-col-reverse relative z-20 text-white h-auto  items-center w-full ">
+      <div className={`absolute z-0 left-[10px] `}>
+        <img src={lens} className=" sm:h-[800px] sm:w-[800px] " alt="" />
       </div>
-      <div className="w-[50%] relative z-20  ">
+      <div className="sm:w-[50%] sm:text-start text-center relative z-20  ">
         <div className="text-[40px] mb-8 leading-[50px] font-[700] ">
           <h1>Rules and</h1>
           <h1 className="txt">Guidelines</h1>
@@ -22,7 +22,7 @@ function Rules() {
         </p>
       </div>
 
-      <div className="w-[50%] flex items-end justify-end  ">
+      <div className="sm:w-[50%] flex items-end justify-end  ">
         <img src={rules} className="h-[600px] " alt="" />
       </div>
     </main>

@@ -2,12 +2,27 @@ body{
     overflow-x: hidden;
 
 }
+.glass{
+   background: rgba(255, 255, 255, 0);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(11.8px);
+   -webkit-backdrop-filter: blur(11.8px);
+}
+.rb{
+    border: 1px sloid #FE34B9;
+}
+.sh{
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.266);
+}
 .bac{
     background-color: #150E28;
 }
 .bb{
     width:100% ;
     border-bottom: 1px solid #D434FE;
+}
+.foot{
+    background-color: #100B20;
 }
 .stroke{
     background-color: #D434FE;

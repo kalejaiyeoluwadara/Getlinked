@@ -4,14 +4,14 @@ import lens from "./../assets/lens.png";
 import Button from "../Button";
 function Criteria() {
   return (
-    <main className="flex px-[70px] pb-10 relative z-20 text-white h-auto  items-center w-full ">
-      <div className="w-[50%] relative z-20 flex items-end justify-end  ">
-        <img src={cri} className="h-[600px] " alt="" />
+    <main className="flex sm:flex-row flex-col sm:px-[70px] px-[20px] pb-10 relative z-20 text-white h-auto  items-center w-full ">
+      <div className="sm:w-[50%] relative z-20 flex items-end justify-end  ">
+        <img src={cri} className="sm:h-[600px] h-[400px] " alt="" />
       </div>
       <div className={`absolute z-10 -left-[60px] top-[200px] `}>
         <img src={lens} className=" h-[800px] w-[800px] " alt="" />
       </div>
-      <div className="w-[50%] relative z-20  ">
+      <div className="sm:w-[50%] sm:text-start text-center relative z-20  ">
         <div className="text-[40px] mb-8 leading-[50px] font-[700] ">
           <h1>Judging Criteria </h1>
           <h1 className="txt">Key attributes</h1>
@@ -51,7 +51,7 @@ function Criteria() {
             or APIs, and any other competition-specific requirements.
           </p>
         </article>
-        <div className="mt-[30px]" >
+        <div className="mt-[30px] sm:block flex items-center justify-center " >
           <Button name={"Read More"} />
         </div>
       </div>
